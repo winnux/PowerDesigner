@@ -2,9 +2,14 @@
 # Project created by QtCreator 2010-01-11T09:27:14
 # -------------------------------------------------
 QT -= gui
+win32{
+QTC_SOURCE = C:\projects\qt-creator-1.3.0
+QTC_BUILD = C:\creatorframework\
+}
+unix{
 QTC_SOURCE = /home/lihaibo/dev/qt-creator-1.3.0/
 QTC_BUILD = /home/lihaibo/dev/myQtCreator/
-
+}
 TARGET = PowerDesigner
 TEMPLATE = lib
 IDE_SOURCE_TREE = $$QTC_SOURCE
